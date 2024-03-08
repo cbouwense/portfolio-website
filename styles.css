@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+    --text-primary-color: whitesmoke;
+    --text-secondary-color: gray;
+    color: var(--text-primary-color);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgba(13, 17, 23);
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li {
+    list-style-type: none;
+}
+
+main {
+    width: 100%;
+    min-height: 80vh;
+}
+
+nav {
+    font-size: 1.5rem;
+}
+
+/* Spacing */
+.m-0 { margin: 0 }
+
+/* Sizing */
+.vw-100 { width: 100vw; }
+.vh-100 { height: 100vh; }
+.w-100 { width: 100%; }
+.h-100 { height: 100%; }
+.min-w-100 { min-width: 100%; }
+.min-h-100 { min-height: 100%; }
+.min-vw-100 { min-width: 100vw; }
+.min-vh-100 { min-height: 100vh; }
+
+/* Text */
+.huge { font-size: 7rem; }
+.large { font-size: 3rem; }
+.medium { font-size: 2rem; }
+.default { font-size: 1rem; }
+.small { font-size: 0.5rem; }
+.tiny { font-size: 0.25rem; }
+
+/* Flex stuff */
+.flex { display: flex; }
+.column { flex-direction: column; }
+.gap-16 { gap: 16px; }
+.gap-32 { gap: 32px; }
+.gap-64 { gap: 64px; }
+.align-center { align-items: center; }
+.justify-center { justify-content: center;}
+
+.hoverable-text {
+    color: var(--text-primary-color);
+    transition: color 0.25s ease;
+}
+
+.hoverable-text:hover {
+    color: var(--text-secondary-color);
+}
+
+/* Text examples */
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  

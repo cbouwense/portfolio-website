@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,23 +9,203 @@
   <!-- Font stuff -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,200;0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+
   <link href="styles.css" rel="stylesheet">
 </head>
+
 <body class="m-0">
-  <nav class="w-100">
-    <ul class="flex gap-64">
-      <li><a href="#" class="hoverable-text">About</a></li>
-      <li><a href="#" class="hoverable-text">Work</a></li>
-      <li><a href="#" class="hoverable-text">Contact</a></li>
+  <nav class="w-100 sticky p-4 c-bg fs-m z-2">
+    <ul class="flex gap-4">
+      <li><a href="#about" class="hoverable-text">About</a></li>
+      <li><a href="#skills" class="hoverable-text">Skills</a></li>
+      <li><a href="#experience" class="hoverable-text">Experience</a></li>
+      <li><a href="#work" class="hoverable-text">Work</a></li>
+      <li><a href="#contact" class="hoverable-text">Contact</a></li>
     </ul>
   </nav>
-  <main class="flex column w-100 align-center justify-center">
-    <div>
-      <h1 class="text huge">Hi, I'm Christian.</h1>
-      <h2 class="text">I build things.</h2>
-    </div>
+  <main class="w-100 px-128 pb-128 z-1">
+    <section id="about" class="w-100 flex align-center justify-between">
+      <div>
+        <h1 class="fs-xxl">Hi, I'm Christian.</h1>
+        <h2 class="light-text">I'm a software engineer.</h2>
+        <h2 class="light-text">By day I'm obsessed with frontend web development.</h2>
+        <h2 class="light-text">By night I tinker with systems programming languages.</h2>
+        <h2 class="light-text">My wife and I make <a href="https://soapy.bar"
+            class="hoverable-text underline-dots">homemade soap</a> from scratch with love.</h2>
+      </div>
+      <div>
+        <img src="./public/headshot.jpg" />
+      </div>
+    </section>
+    <section id="skills" class="w-100 mt-32">
+      <h1 class="fs-xxl">Programming Languages</h1>
+      <div class="grid grid-col-2 gap-8">
+        <div>
+          <h2 class="fs-l">Professional outlier</h2>
+          <ul class="flex column gap-2">
+            <li class="p-8 rounded light-shadow relative fs-m">
+              <div class="flex justify-between align-center">
+                <span>HTML / CSS / Javascript</span>
+                <span>100%</span>
+              </div>
+              <span class="skill-bar blue w-100"></span>
+            </li>
+            <li class="p-8 rounded light-shadow relative fs-m">
+              <div class="flex justify-between align-center">
+                <span>Typescript</span>
+                <span>95%</span>
+              </div>
+              <span class="skill-bar blue w-95"></span>
+            </li>
+            <li class="p-8 rounded light-shadow relative fs-m">
+              <div class="flex justify-between align-center">
+                <span>React / Next.js</span>
+                <span>95%</span>
+              </div>
+              <span class="skill-bar blue w-95"></span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="fs-l">Used in production</h2>
+          <ul class="flex column gap-2">
+            <li class="p-8 rounded light-shadow relative fs-m">
+              <div class="flex justify-between align-center">
+                <span>Python</span>
+                <span>85%</span>
+              </div>
+              <span class="skill-bar green w-85"></span>
+            </li>
+            <li class="p-8 rounded light-shadow relative fs-m">
+              <div class="flex justify-between align-center">
+                <span>Java</span>
+                <span>80%</span>
+              </div>
+              <span class="skill-bar green w-80"></span>
+            </li>
+            <li class="p-8 rounded light-shadow relative fs-m">
+              <div class="flex justify-between align-center">
+                <span>Golang</span>
+                <span>80%</span>
+              </div>
+              <span class="skill-bar green w-80"></span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="fs-l">Familiar</h2>
+          <ul class="flex column gap-2">
+            <li class="p-8 rounded light-shadow relative fs-m">
+              <div class="flex justify-between align-center">
+                <span>C</span>
+                <span>75%</span>
+              </div>
+              <span class="skill-bar yellow w-75"></span>
+            </li>
+            <li class="p-8 rounded light-shadow relative fs-m">
+              <div class="flex justify-between align-center">
+                <span>C++</span>
+                <span>70%</span>
+              </div>
+              <span class="skill-bar yellow w-70"></span>
+            </li>
+            <li class="p-8 rounded light-shadow relative fs-m">
+              <div class="flex justify-between align-center">
+                <span>SQL</span>
+                <span>70%</span>
+              </div>
+              <span class="skill-bar yellow w-70"></span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="fs-l">Learning</h2>
+          <ul class="flex column gap-2">
+            <li class="p-8 rounded light-shadow relative fs-m">
+              <div class="flex justify-between align-center">
+                <span>Rust</span>
+                <span>50%</span>
+              </div>
+              <span class="skill-bar orange w-50"></span>
+            </li>
+            <li class="p-8 rounded light-shadow relative fs-m">
+              <div class="flex justify-between align-center">
+                <span>WebAssembly</span>
+                <span>25%</span>
+              </div>
+              <span class="skill-bar orange w-25"></span>
+            </li>
+            <li class="p-8 rounded light-shadow relative fs-m">
+              <div class="flex justify-between align-center">
+                <span>Hare</span>
+                <span>25%</span>
+              </div>
+              <span class="skill-bar orange w-25"></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="w-100 mt-32">
+      <h1 class="fs-xxl mt-32">Places I've Worked</h1>
+      <div class="grid grid-col-2 gap-8 w-100">
+        <div class="work-card">
+          <img src="./public/bigeyeb5.svg" class="h-25" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="work-card">
+          <img src="./public/ikea.svg" class="h-25" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="work-card">
+          <img src="./public/jpmcb5fit.svg" class="h-15" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="work-card">
+          <!-- TODO: vistar -->
+          <!-- <img src="./public/" -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </section>
+    <section id="work" class="w-100 mt-32">
+      <h1 class="fs-xxl mt-32">A sampling of my portfolio</h1>
+      <div class="work-card">
+        <img src="./public/soapybar.png" class="h-25" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="work-card">
+        <img src="./public/soapybar.png" class="h-25" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="work-card">
+        <img src="./public/soapybar.png" class="h-25" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="work-card">
+        <img src="./public/soapybar.png" class="h-25" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </section>
+    <section id="contact" class="w-100 mt-32">
+      <h1 class="fs-xxl mt-32">Get in touch</h1>
+      <div class="flex gap-8 w-100">
+        <div>
+          <h2 class="fs-l">Email</h2>
+          <p class="fs-m">cbouwense@proton.me</p>
+        </div>
+        <div>
+          <h2 class="fs-l">LinkedIn</h2>
+          <p class="fs-m"><a href="https://www.linkedin.com/in/christianbouwense/" class="hoverable-text underline-dots">linkedin.com/in/christianbouwense</a></p>
+        </div>
+        <div>
+          <h2 class="fs-l">GitHub</h2>
+          <p class="fs-m"><a href="https://github.com/cbouwense" class="hoverable-text underline-dots">github.com/christianbouwense</a></p>
+        </div>
+    </section>
   </main>
 </body>
+
 </html>

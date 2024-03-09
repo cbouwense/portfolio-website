@@ -38,8 +38,13 @@ main {
     width: 100%;
 }
 
+
 section {
     min-height: 80vh;
+}
+
+ul { 
+    padding-left: 0;
 }
 
 .skill-bar {

@@ -1,5 +1,5 @@
-<!DOCTYPE html>
 <html lang="en">
+<!DOCTYPE html>
 
 <head>
   <meta charset="UTF-8">
@@ -36,7 +36,7 @@
         <li><a href="#contact" class="hoverable-text">Contact</a></li>
       </ul>
     </nav>
-    <main class="w-100 pb-128 z-1 flex column flex-center gap-8rem">
+    <main class="w-100 pb-128 z-1 flex column flex-center gap-4rem">
       <section id="about" class="w-75 grid grid-col-2 gap-2rem">
         <div>
           <h1 class="fs-5rem">Hi, I'm Christian.</h1>
@@ -158,7 +158,7 @@
         </div>
       </section>
       <section id="experience" class="w-75">
-        <h1 class="fs-5rem mt-32">Places I've Worked</h1>
+        <h1 class="fs-5rem">Places I've Worked</h1>
         <div class="grid grid-col-2 gap-8rem w-100">
           <div class="work-card">
             <img src="./public/bigeyeb5.svg" class="h-25" />
@@ -196,8 +196,19 @@
         </div>
       </section>
       <section id="work" class="w-75">
-        <h1 class="fs-5rem mt-32">A sampling of my portfolio</h1>
-        <div class="work-card">
+        <h1 class="fs-5rem">A sampling of my portfolio</h1>
+        <div class="flex flex-center column">
+          <video autoplay muted loop preload="metadata" class="w-75">
+            <source src="./public/rbitty-art.mp4" type="video/mp4">
+            <source src="./public/rbitty-art.webm" type="video/webm">
+            Your browser does not support the video tag.
+          </video>
+
+        </div>
+        <h2 class="fs-1-5rem "><a href="https://rbitty.art/" target="_blank"
+            class="hoverable-text underline-dots">rbitty.art</a></h2>
+        <p>This </p>
+        <!-- <div>
           <img src="./public/soapybar.png" class="h-25" />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
@@ -205,7 +216,7 @@
             nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
             anim id est laborum.</p>
         </div>
-        <div class="work-card">
+        <div>
           <img src="./public/soapybar.png" class="h-25" />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
@@ -213,25 +224,17 @@
             nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
             anim id est laborum.</p>
         </div>
-        <div class="work-card">
+        <div>
           <img src="./public/soapybar.png" class="h-25" />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
             nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
             anim id est laborum.</p>
-        </div>
-        <div class="work-card">
-          <img src="./public/soapybar.png" class="h-25" />
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.</p>
-        </div>
+        </div> -->
       </section>
       <section id="contact" class="w-75">
-        <h1 class="fs-5rem mt-32">Get in touch</h1>
+        <h1 class="fs-5rem">Get in touch</h1>
         <div class="flex gap-8rem w-100">
           <div>
             <h2 class="fs-3rem">Email</h2>
@@ -247,6 +250,7 @@
             <p class="fs-1-5rem"><a target="_blank" href="https://github.com/cbouwense"
                 class="hoverable-text underline-dots">github.com/christianbouwense</a></p>
           </div>
+        </div>
       </section>
     </main>
   </div>

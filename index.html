@@ -16,39 +16,48 @@
 </head>
 
 <body class="m-0">
-  <div class="mobile">
-    <main class="w-100 flex column flex-center gap-4rem">
-      <section id="about" class="w-75 flex flex-center column gap-2rem">
-        <h1 class="fs-4rem m-0 mt-2rem">Hi, I'm Christian.</h1>
-        <img src="./public/headshot.jpg" class="max-w-100" />
+  <nav class="w-100 sticky p-0-5rem c-bg fs-1rem z-2 desktop tablet">
+    <ul class="flex gap-4rem">
+      <li><a href="#about" class="hoverable-text">About</a></li>
+      <li><a href="#skills" class="hoverable-text">Skills</a></li>
+      <li><a href="#experience" class="hoverable-text">Experience</a></li>
+      <li><a href="#work" class="hoverable-text">Work</a></li>
+      <li><a href="#contact" class="hoverable-text">Contact</a></li>
+    </ul>
+  </nav>
+  <main class="w-100 pb-128 z-1 flex column flex-center gap-4rem">
+    <section id="about" class="w-75 grid grid-col-2 gap-2rem">
+      <div>
+        <h1 class="fs-5rem">Hi, I'm Christian.</h1>
+        <h2 class="light-text">I'm a software engineer.</h2>
+        <h2 class="light-text">By day I'm obsessed with frontend web development.</h2>
+        <h2 class="light-text">By night I tinker with systems programming languages.</h2>
+        <h2 class="light-text">My wife and I make <a href="https://soapy.bar" target="_blank"
+            class="hoverable-text underline-dots">homemade soap</a> from scratch with love.</h2>
+      </div>
+      <img src="./public/headshot.jpg" class="max-w-100" />
+    </section>
+    <section id="skills" class="w-75">
+      <h1 class="fs-5rem">Programming Languages</h1>
+      <div class="grid grid-col-2 gap-2rem">
         <div>
-          <h2 class="fs-1-5rem light-text">I'm a software engineer.</h2>
-          <h2 class="fs-1-5rem light-text">By day I'm obsessed with frontend web development.</h2>
-          <h2 class="fs-1-5rem light-text">By night I tinker with systems programming languages.</h2>
-          <h2 class="fs-1-5rem light-text">My wife and I make <a href="https://soapy.bar" target="_blank"
-              class="hoverable-text underline-dots">homemade soap</a> from scratch with love.</h2>
-        </div>
-      </section>
-      <section id="skills" class="w-75 flex column gap-2rem">
-        <h1 class="fs-3rem m-0">Programming Languages</h1>
-        <div>
-          <h2 class="fs-1-5rem">Professional outlier</h2>
-          <ul class="flex column gap-1rem">
-            <li class="p-1rem rounded light-shadow-small relative fs-1rem">
+          <h2 class="fs-2rem">Professional outlier</h2>
+          <ul class="flex column gap-2rem">
+            <li class="p-1rem rounded light-shadow relative fs-1rem">
               <div class="flex justify-between align-center">
                 <span>HTML / CSS / Javascript</span>
                 <span>100%</span>
               </div>
               <span class="skill-bar blue w-100"></span>
             </li>
-            <li class="p-1rem rounded light-shadow-small relative fs-1rem">
+            <li class="p-1rem rounded light-shadow relative fs-1rem">
               <div class="flex justify-between align-center">
                 <span>Typescript</span>
                 <span>95%</span>
               </div>
               <span class="skill-bar blue w-95"></span>
             </li>
-            <li class="p-1rem rounded light-shadow-small relative fs-1rem">
+            <li class="p-1rem rounded light-shadow relative fs-1rem">
               <div class="flex justify-between align-center">
                 <span>React / Next.js</span>
                 <span>95%</span>
@@ -58,23 +67,23 @@
           </ul>
         </div>
         <div>
-          <h2 class="fs-1-5rem">Used in production</h2>
-          <ul class="flex column gap-1rem">
-            <li class="p-1rem rounded light-shadow-small relative fs-1rem">
+          <h2 class="fs-2rem">Used in production</h2>
+          <ul class="flex column gap-2rem">
+            <li class="p-1rem rounded light-shadow relative fs-1rem">
               <div class="flex justify-between align-center">
                 <span>Python</span>
                 <span>85%</span>
               </div>
               <span class="skill-bar green w-85"></span>
             </li>
-            <li class="p-1rem rounded light-shadow-small relative fs-1rem">
+            <li class="p-1rem rounded light-shadow relative fs-1rem">
               <div class="flex justify-between align-center">
                 <span>Java</span>
                 <span>80%</span>
               </div>
               <span class="skill-bar green w-80"></span>
             </li>
-            <li class="p-1rem rounded light-shadow-small relative fs-1rem">
+            <li class="p-1rem rounded light-shadow relative fs-1rem">
               <div class="flex justify-between align-center">
                 <span>Golang</span>
                 <span>80%</span>
@@ -84,23 +93,23 @@
           </ul>
         </div>
         <div>
-          <h2 class="fs-1-5rem">Familiar</h2>
-          <ul class="flex column gap-1rem">
-            <li class="p-1rem rounded light-shadow-small relative fs-1rem">
+          <h2 class="fs-2rem">Familiar</h2>
+          <ul class="flex column gap-2rem">
+            <li class="p-1rem rounded light-shadow relative fs-1rem">
               <div class="flex justify-between align-center">
                 <span>C</span>
                 <span>75%</span>
               </div>
               <span class="skill-bar yellow w-75"></span>
             </li>
-            <li class="p-1rem rounded light-shadow-small relative fs-1rem">
+            <li class="p-1rem rounded light-shadow relative fs-1rem">
               <div class="flex justify-between align-center">
                 <span>C++</span>
                 <span>70%</span>
               </div>
               <span class="skill-bar yellow w-70"></span>
             </li>
-            <li class="p-1rem rounded light-shadow-small relative fs-1rem">
+            <li class="p-1rem rounded light-shadow relative fs-1rem">
               <div class="flex justify-between align-center">
                 <span>SQL</span>
                 <span>70%</span>
@@ -110,23 +119,23 @@
           </ul>
         </div>
         <div>
-          <h2 class="fs-1-5rem">Learning</h2>
-          <ul class="flex column gap-1rem">
-            <li class="p-1rem rounded light-shadow-small relative fs-1rem">
+          <h2 class="fs-2rem">Learning</h2>
+          <ul class="flex column gap-2rem">
+            <li class="p-1rem rounded light-shadow relative fs-1rem">
               <div class="flex justify-between align-center">
                 <span>Rust</span>
                 <span>50%</span>
               </div>
               <span class="skill-bar orange w-50"></span>
             </li>
-            <li class="p-1rem rounded light-shadow-small relative fs-1rem">
+            <li class="p-1rem rounded light-shadow relative fs-1rem">
               <div class="flex justify-between align-center">
                 <span>WebAssembly</span>
                 <span>25%</span>
               </div>
               <span class="skill-bar orange w-25"></span>
             </li>
-            <li class="p-1rem rounded light-shadow-small relative fs-1rem">
+            <li class="p-1rem rounded light-shadow relative fs-1rem">
               <div class="flex justify-between align-center">
                 <span>Hare</span>
                 <span>25%</span>
@@ -135,318 +144,104 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section id="experience" class="w-75">
-        <h1 class="fs-3rem">Places I've Worked</h1>
-        <div class="flex column gap-2rem">
-          <div>
-            <img src="./public/bigeyeb5.svg" class="w-50" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.</p>
-          </div>
-          <div>
-            <img src="./public/ikea.svg" class="w-50" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.</p>
-          </div>
-          <div>
-            <img src="./public/jpmcb5fit.svg" class="w-100" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.</p>
-          </div>
-          <div>
-            <img src="./public/" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.</p>
-          </div>
+      </div>
+    </section>
+    <section id="experience" class="w-75">
+      <h1 class="fs-5rem">Places I've Worked</h1>
+      <div class="grid grid-col-2 gap-8rem w-100">
+        <div class="work-card">
+          <img src="./public/bigeyeb5.svg" class="h-25" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
         </div>
-      </section>
-      <section id="work" class="w-75">
-        <h1 class="fs-3rem">A sampling of my portfolio</h1>
-        <div class="flex flex-center column">
-          <video autoplay muted loop preload="metadata" class="w-100">
-            <source src="./public/rbitty-art.mp4" type="video/mp4">
-            <source src="./public/rbitty-art.webm" type="video/webm">
-            Your browser does not support the video tag.
-          </video>
+        <div class="work-card">
+          <img src="./public/ikea.svg" class="h-25" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
         </div>
-        <h2 class="fs-1-5rem "><a href="https://rbitty.art/" target="_blank"
-            class="hoverable-text underline-dots">rbitty.art</a>
-        </h2>
+        <div class="work-card">
+          <img src="./public/jpmcb5fit.svg" class="h-15" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+        </div>
+        <div class="work-card">
+          <!-- TODO: vistar -->
+          <!-- <img src="./public/" -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </section>
+    <section id="work" class="w-75">
+      <h1 class="fs-5rem">A sampling of my portfolio</h1>
+      <div class="flex flex-center column">
+        <video autoplay muted loop preload="metadata" class="w-75">
+          <source src="./public/rbitty-art.mp4" type="video/mp4">
+          <source src="./public/rbitty-art.webm" type="video/webm">
+          Your browser does not support the video tag.
+        </video>
+
+      </div>
+      <h2 class="fs-1-5rem "><a href="https://rbitty.art/" target="_blank"
+          class="hoverable-text underline-dots">rbitty.art</a></h2>
+      <p>This </p>
+      <!-- <div>
+        <img src="./public/soapybar.png" class="h-25" />
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
           dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-          mollit anim id est laborum.
-        </p>
-      </section>
-      <section id="contact" class="w-75">
-        <h1 class="fs-3rem">Get in touch</h1>
-        <div class="flex column gap-2rem">
-          <div>
-            <h2 class="fs-1-5rem">Email</h2>
-            <p class="fs-1rem">cbouwense@proton.me</p>
-          </div>
-          <div>
-            <h2 class="fs-1-5rem">LinkedIn</h2>
-            <p class="fs-1rem"><a target="_blank" href="https://www.linkedin.com/in/christianbouwense/"
-                class="hoverable-text underline-dots">linkedin.com/in/christianbouwense</a></p>
-          </div>
-          <div>
-            <h2 class="fs-1-5rem">GitHub</h2>
-            <p class="fs-1rem"><a target="_blank" href="https://github.com/cbouwense"
-                class="hoverable-text underline-dots">github.com/christianbouwense</a></p>
-          </div>
-        </div>
-      </section>
-    </main>
-  </div>
-  <div class="tablet">
-    <div class="flex justify-center align-center vw-100 vh-100">
-      <span>Hi tablet user. I haven't implmented this site for mobile yet.</span>
-    </div>
-  </div>
-  <div class="desktop">
-    <nav class="w-100 sticky p-0-5rem c-bg fs-1rem z-2">
-      <ul class="flex gap-4rem">
-        <li><a href="#about" class="hoverable-text">About</a></li>
-        <li><a href="#skills" class="hoverable-text">Skills</a></li>
-        <li><a href="#experience" class="hoverable-text">Experience</a></li>
-        <li><a href="#work" class="hoverable-text">Work</a></li>
-        <li><a href="#contact" class="hoverable-text">Contact</a></li>
-      </ul>
-    </nav>
-    <main class="w-100 pb-128 z-1 flex column flex-center gap-4rem">
-      <section id="about" class="w-75 grid grid-col-2 gap-2rem">
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+      </div>
+      <div>
+        <img src="./public/soapybar.png" class="h-25" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+      </div>
+      <div>
+        <img src="./public/soapybar.png" class="h-25" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+      </div> -->
+    </section>
+    <section id="contact" class="w-75">
+      <h1 class="fs-5rem">Get in touch</h1>
+      <div class="flex m_gap-1rem t_gap-2rem d_gap-4rem gap-8rem w-100">
         <div>
-          <h1 class="fs-5rem">Hi, I'm Christian.</h1>
-          <h2 class="light-text">I'm a software engineer.</h2>
-          <h2 class="light-text">By day I'm obsessed with frontend web development.</h2>
-          <h2 class="light-text">By night I tinker with systems programming languages.</h2>
-          <h2 class="light-text">My wife and I make <a href="https://soapy.bar" target="_blank"
-              class="hoverable-text underline-dots">homemade soap</a> from scratch with love.</h2>
-        </div>
-        <img src="./public/headshot.jpg" class="max-w-100" />
-      </section>
-      <section id="skills" class="w-75">
-        <h1 class="fs-5rem">Programming Languages</h1>
-        <div class="grid grid-col-2 gap-2rem">
-          <div>
-            <h2 class="fs-2rem">Professional outlier</h2>
-            <ul class="flex column gap-2rem">
-              <li class="p-1rem rounded light-shadow relative fs-1rem">
-                <div class="flex justify-between align-center">
-                  <span>HTML / CSS / Javascript</span>
-                  <span>100%</span>
-                </div>
-                <span class="skill-bar blue w-100"></span>
-              </li>
-              <li class="p-1rem rounded light-shadow relative fs-1rem">
-                <div class="flex justify-between align-center">
-                  <span>Typescript</span>
-                  <span>95%</span>
-                </div>
-                <span class="skill-bar blue w-95"></span>
-              </li>
-              <li class="p-1rem rounded light-shadow relative fs-1rem">
-                <div class="flex justify-between align-center">
-                  <span>React / Next.js</span>
-                  <span>95%</span>
-                </div>
-                <span class="skill-bar blue w-95"></span>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 class="fs-2rem">Used in production</h2>
-            <ul class="flex column gap-2rem">
-              <li class="p-1rem rounded light-shadow relative fs-1rem">
-                <div class="flex justify-between align-center">
-                  <span>Python</span>
-                  <span>85%</span>
-                </div>
-                <span class="skill-bar green w-85"></span>
-              </li>
-              <li class="p-1rem rounded light-shadow relative fs-1rem">
-                <div class="flex justify-between align-center">
-                  <span>Java</span>
-                  <span>80%</span>
-                </div>
-                <span class="skill-bar green w-80"></span>
-              </li>
-              <li class="p-1rem rounded light-shadow relative fs-1rem">
-                <div class="flex justify-between align-center">
-                  <span>Golang</span>
-                  <span>80%</span>
-                </div>
-                <span class="skill-bar green w-80"></span>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 class="fs-2rem">Familiar</h2>
-            <ul class="flex column gap-2rem">
-              <li class="p-1rem rounded light-shadow relative fs-1rem">
-                <div class="flex justify-between align-center">
-                  <span>C</span>
-                  <span>75%</span>
-                </div>
-                <span class="skill-bar yellow w-75"></span>
-              </li>
-              <li class="p-1rem rounded light-shadow relative fs-1rem">
-                <div class="flex justify-between align-center">
-                  <span>C++</span>
-                  <span>70%</span>
-                </div>
-                <span class="skill-bar yellow w-70"></span>
-              </li>
-              <li class="p-1rem rounded light-shadow relative fs-1rem">
-                <div class="flex justify-between align-center">
-                  <span>SQL</span>
-                  <span>70%</span>
-                </div>
-                <span class="skill-bar yellow w-70"></span>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 class="fs-2rem">Learning</h2>
-            <ul class="flex column gap-2rem">
-              <li class="p-1rem rounded light-shadow relative fs-1rem">
-                <div class="flex justify-between align-center">
-                  <span>Rust</span>
-                  <span>50%</span>
-                </div>
-                <span class="skill-bar orange w-50"></span>
-              </li>
-              <li class="p-1rem rounded light-shadow relative fs-1rem">
-                <div class="flex justify-between align-center">
-                  <span>WebAssembly</span>
-                  <span>25%</span>
-                </div>
-                <span class="skill-bar orange w-25"></span>
-              </li>
-              <li class="p-1rem rounded light-shadow relative fs-1rem">
-                <div class="flex justify-between align-center">
-                  <span>Hare</span>
-                  <span>25%</span>
-                </div>
-                <span class="skill-bar orange w-25"></span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section id="experience" class="w-75">
-        <h1 class="fs-5rem">Places I've Worked</h1>
-        <div class="grid grid-col-2 gap-8rem w-100">
-          <div class="work-card">
-            <img src="./public/bigeyeb5.svg" class="h-25" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.</p>
-          </div>
-          <div class="work-card">
-            <img src="./public/ikea.svg" class="h-25" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.</p>
-          </div>
-          <div class="work-card">
-            <img src="./public/jpmcb5fit.svg" class="h-15" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.</p>
-          </div>
-          <div class="work-card">
-            <!-- TODO: vistar -->
-            <!-- <img src="./public/" -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.</p>
-          </div>
-        </div>
-      </section>
-      <section id="work" class="w-75">
-        <h1 class="fs-5rem">A sampling of my portfolio</h1>
-        <div class="flex flex-center column">
-          <video autoplay muted loop preload="metadata" class="w-75">
-            <source src="./public/rbitty-art.mp4" type="video/mp4">
-            <source src="./public/rbitty-art.webm" type="video/webm">
-            Your browser does not support the video tag.
-          </video>
-
-        </div>
-        <h2 class="fs-1-5rem "><a href="https://rbitty.art/" target="_blank"
-            class="hoverable-text underline-dots">rbitty.art</a></h2>
-        <p>This </p>
-        <!-- <div>
-          <img src="./public/soapybar.png" class="h-25" />
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.</p>
+          <h2 class="fs-3rem">Email</h2>
+          <p class="fs-1-5rem">cbouwense@proton.me</p>
         </div>
         <div>
-          <img src="./public/soapybar.png" class="h-25" />
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.</p>
+          <h2 class="fs-3rem">LinkedIn</h2>
+          <p class="fs-1-5rem"><a target="_blank" href="https://www.linkedin.com/in/christianbouwense/"
+              class="hoverable-text underline-dots">linkedin.com/in/christianbouwense</a></p>
         </div>
         <div>
-          <img src="./public/soapybar.png" class="h-25" />
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.</p>
-        </div> -->
-      </section>
-      <section id="contact" class="w-75">
-        <h1 class="fs-5rem">Get in touch</h1>
-        <div class="flex gap-8rem w-100">
-          <div>
-            <h2 class="fs-3rem">Email</h2>
-            <p class="fs-1-5rem">cbouwense@proton.me</p>
-          </div>
-          <div>
-            <h2 class="fs-3rem">LinkedIn</h2>
-            <p class="fs-1-5rem"><a target="_blank" href="https://www.linkedin.com/in/christianbouwense/"
-                class="hoverable-text underline-dots">linkedin.com/in/christianbouwense</a></p>
-          </div>
-          <div>
-            <h2 class="fs-3rem">GitHub</h2>
-            <p class="fs-1-5rem"><a target="_blank" href="https://github.com/cbouwense"
-                class="hoverable-text underline-dots">github.com/christianbouwense</a></p>
-          </div>
+          <h2 class="fs-3rem">GitHub</h2>
+          <p class="fs-1-5rem"><a target="_blank" href="https://github.com/cbouwense"
+              class="hoverable-text underline-dots">github.com/christianbouwense</a></p>
         </div>
-      </section>
-    </main>
-  </div>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>

@@ -59,39 +59,6 @@ ul {
     min-height: 12rem;
 }
 
-/* Desktop */
-@media (min-width: 1024px) {
-    .mobile  { display: none;    }
-    .tablet  { display: none;    }
-    .desktop { display: inherit; }
-
-    :root {
-        font-size: 18px;
-    }
-}
-
-/* Tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
-    .mobile  { display: none;    }
-    .tablet  { display: inherit; }
-    .desktop { display: none;    }
-
-    :root {
-        font-size: 16px;
-    }
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-    .mobile  { display: inherit; }
-    .tablet  { display: none;    }
-    .desktop { display: none;    }
-
-    :root {
-        font-size: 14px;
-    }
-}
-
 /** Tailwind Lite **/
 
 /* Margin */
@@ -505,11 +472,11 @@ ul {
 .grid-row-12 { grid-template-rows: repeat(12, 1fr); }
 
 /* Gap */
-.gap-1rem { gap: 1rem; }
-.gap-2rem { gap: 2rem; }
-.gap-3rem { gap: 3rem; }
-.gap-4rem { gap: 4rem; }
-.gap-8rem { gap: 8rem; }
+.gap-1rem  { gap: 1rem;  }
+.gap-2rem  { gap: 2rem;  }
+.gap-3rem  { gap: 3rem;  }
+.gap-4rem  { gap: 4rem;  }
+.gap-8rem  { gap: 8rem;  }
 .gap-16rem { gap: 16rem; }
 .gap-32rem { gap: 32rem; }
 .gap-64rem { gap: 64rem; }
@@ -553,6 +520,66 @@ ul {
     font-family: "Libre Baskerville", serif;
     font-weight: 200;
     font-style: normal;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .mobile  { display: inherit; }
+    .tablet  { display: none;    }
+    .desktop { display: none;    }
+
+    :root {
+        font-size: 14px;
+    }
+
+    .m_gap-1rem  { gap: 1rem;  }
+    .m_gap-2rem  { gap: 2rem;  }
+    .m_gap-3rem  { gap: 3rem;  }
+    .m_gap-4rem  { gap: 4rem;  }
+    .m_gap-8rem  { gap: 8rem;  }
+    .m_gap-16rem { gap: 16rem; }
+    .m_gap-32rem { gap: 32rem; }
+    .m_gap-64rem { gap: 64rem; }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .mobile  { display: none;    }
+    .tablet  { display: inherit; }
+    .desktop { display: none;    }
+
+    :root {
+        font-size: 16px;
+    }
+
+    .t_gap-1rem  { gap: 1rem;  }
+    .t_gap-2rem  { gap: 2rem;  }
+    .t_gap-3rem  { gap: 3rem;  }
+    .t_gap-4rem  { gap: 4rem;  }
+    .t_gap-8rem  { gap: 8rem;  }
+    .t_gap-16rem { gap: 16rem; }
+    .t_gap-32rem { gap: 32rem; }
+    .t_gap-64rem { gap: 64rem; }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .mobile  { display: none;    }
+    .tablet  { display: none;    }
+    .desktop { display: inherit; }
+
+    :root {
+        font-size: 18px;
+    }
+
+    .d_gap-1rem  { gap: 1rem;  }
+    .d_gap-2rem  { gap: 2rem;  }
+    .d_gap-3rem  { gap: 3rem;  }
+    .d_gap-4rem  { gap: 4rem;  }
+    .d_gap-8rem  { gap: 8rem;  }
+    .d_gap-16rem { gap: 16rem; }
+    .d_gap-32rem { gap: 32rem; }
+    .d_gap-64rem { gap: 64rem; }
 }
 
 /* Text examples */

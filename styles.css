@@ -823,55 +823,55 @@ ul {
     .m_max-w-100 { max-width: 100%; }
 
     /* Height */
-    .m_h-5 { height: 5%; }
-    .m_h-10 { height: 10%; }
-    .m_h-15 { height: 15%; }
-    .m_h-20 { height: 20%; }
-    .m_h-25 { height: 25%; }
-    .m_h-30 { height: 30%; }
-    .m_h-35 { height: 35%; }
-    .m_h-40 { height: 40%; }
-    .m_h-45 { height: 45%; }
-    .m_h-50 { height: 50%; }
-    .m_h-55 { height: 55%; }
-    .m_h-60 { height: 60%; }
-    .m_h-65 { height: 65%; }
-    .m_h-70 { height: 70%; }
-    .m_h-75 { height: 75%; }
-    .m_h-80 { height: 80%; }
-    .m_h-85 { height: 85%; }
-    .m_h-90 { height: 90%; }
-    .m_h-95 { height: 95%; }
-    .m_h-100 { height: 100%; }
-    .m_w-10rem { width: 10rem; }
+    .m_h-5     { height: 5%;    }
+    .m_h-10    { height: 10%;   }
+    .m_h-15    { height: 15%;   }
+    .m_h-20    { height: 20%;   }
+    .m_h-25    { height: 25%;   }
+    .m_h-30    { height: 30%;   }
+    .m_h-35    { height: 35%;   }
+    .m_h-40    { height: 40%;   }
+    .m_h-45    { height: 45%;   }
+    .m_h-50    { height: 50%;   }
+    .m_h-55    { height: 55%;   }
+    .m_h-60    { height: 60%;   }
+    .m_h-65    { height: 65%;   }
+    .m_h-70    { height: 70%;   }
+    .m_h-75    { height: 75%;   }
+    .m_h-80    { height: 80%;   }
+    .m_h-85    { height: 85%;   }
+    .m_h-90    { height: 90%;   }
+    .m_h-95    { height: 95%;   }
+    .m_h-100   { height: 100%;  }
+    .m_w-10rem { width: 10rem;  }
     .m_h-10rem { height: 10rem; }
 
-    .m_min-w-100 { min-width: 100%; }
+    .m_min-w-100 { min-width: 100%;  }
     .m_min-h-100 { min-height: 100%; }
 
-    .m_vw-10 { width: 10vw; }
-    .m_vw-20 { width: 20vw; }
-    .m_vw-25 { width: 25vw; }
-    .m_vw-30 { width: 30vw; }
-    .m_vw-40 { width: 40vw; }
-    .m_vw-50 { width: 50vw; }
-    .m_vw-60 { width: 60vw; }
-    .m_vw-70 { width: 70vw; }
-    .m_vw-75 { width: 75vw; }
-    .m_vw-80 { width: 80vw; }
-    .m_vw-90 { width: 90vw; }
-    .m_vw-100 { width: 100vw; }
-    .m_vh-10 { height: 10vh; }
-    .m_vh-20 { height: 20vh; }
-    .m_vh-25 { height: 25vh; }
-    .m_vh-30 { height: 30vh; }
-    .m_vh-40 { height: 40vh; }
-    .m_vh-50 { height: 50vh; }
-    .m_vh-60 { height: 60vh; }
-    .m_vh-70 { height: 70vh; }
-    .m_vh-75 { height: 75vh; }
-    .m_vh-80 { height: 80vh; }
-    .m_vh-90 { height: 90vh; }
+    .m_vw-10  { width: 10vw;   }
+    .m_vw-20  { width: 20vw;   }
+    .m_vw-25  { width: 25vw;   }
+    .m_vw-30  { width: 30vw;   }
+    .m_vw-40  { width: 40vw;   }
+    .m_vw-50  { width: 50vw;   }
+    .m_vw-60  { width: 60vw;   }
+    .m_vw-70  { width: 70vw;   }
+    .m_vw-75  { width: 75vw;   }
+    .m_vw-80  { width: 80vw;   }
+    .m_vw-90  { width: 90vw;   }
+    .m_vw-100 { width: 100vw;  }
+    .m_vh-10  { height: 10vh;  }
+    .m_vh-20  { height: 20vh;  }
+    .m_vh-25  { height: 25vh;  }
+    .m_vh-30  { height: 30vh;  }
+    .m_vh-40  { height: 40vh;  }
+    .m_vh-50  { height: 50vh;  }
+    .m_vh-60  { height: 60vh;  }
+    .m_vh-70  { height: 70vh;  }
+    .m_vh-75  { height: 75vh;  }
+    .m_vh-80  { height: 80vh;  }
+    .m_vh-90  { height: 90vh;  }
     .m_vh-100 { height: 100vh; }
 
     .m_rounded { border-radius: 8px; }
@@ -899,7 +899,7 @@ ul {
     .m_row             { flex-direction: row;            }
     .m_column          { flex-direction: column;         }
     .m_flex-center     { align-items: center; 
-                    justify-content: center;        }
+                         justify-content: center;        }
     .m_align-start     { align-items: flex-start;        }
     .m_align-center    { align-items: center;            }
     .m_justify-between { justify-content: space-between; }
@@ -949,12 +949,12 @@ ul {
     .m_bg-primary   { background-color: var(--primary-color);    }
     .m_bg-secondary { background-color: var(--secondary-color);  }
     .m_bg-default   { background-color: var(--background-color); }
-    .m_bg-red          { background-color: red;    }
-    .m_bg-orange       { background-color: orange; }
-    .m_bg-yellow       { background-color: yellow; }
-    .m_bg-green        { background-color: green;  }
-    .m_bg-blue         { background-color: blue;   }
-    .m_bg-purple       { background-color: purple; }
+    .m_bg-red       { background-color: red;    }
+    .m_bg-orange    { background-color: orange; }
+    .m_bg-yellow    { background-color: yellow; }
+    .m_bg-green     { background-color: green;  }
+    .m_bg-blue      { background-color: blue;   }
+    .m_bg-purple    { background-color: purple; }
 
     /* Z-index */
     .m_z-1 { z-index: 1; }

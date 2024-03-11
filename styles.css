@@ -455,6 +455,7 @@ ul {
 
 /* Flexbox */
 .flex            { display: flex;                  }
+.flex-1          { flex: 1;                        }
 .row             { flex-direction: row;            }
 .column          { flex-direction: column;         }
 .flex-center     { align-items: center; 

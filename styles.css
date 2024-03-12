@@ -451,6 +451,8 @@ ul {
 .fs-6rem    { font-size: 6rem;    }
 
 /* Text */
+.ellipses       { text-overflow: ellipsis; }
+.wrap           { word-wrap: break-word }
 .underline-dots { text-decoration: underline dotted; }
 
 /* Flexbox */

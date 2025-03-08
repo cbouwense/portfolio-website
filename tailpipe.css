@@ -6,38 +6,133 @@
 .z-1 {
   z-index: 1;
 }
-.mb-8rem {
-  margin-bottom: 8rem;
-}
-.p-2rem {
-  padding: 2rem;
-}
-.fs-2rem {
-  font-size: 2rem;
-}
-.fs-1\.5rem {
-  font-size: 1.5rem;
-}
-.z-2 {
-  z-index: 2;
-}
-.gap-1rem {
-  gap: 1rem;
-}
-.m-0 {
-  margin: 0;
-}
-.flex {
-  display: flex;
-}
-.w-100\% {
-  width: 100%;
+.p-1rem {
+  padding: 1rem;
 }
 .column {
   flex-direction: column;
 }
+.sticky {
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+}
+.bg-orange {
+  background-color: orange;
+}
+.fs-2rem {
+  font-size: 2rem;
+}
+.gap-4rem {
+  gap: 4rem;
+}
+.justifyCenter {
+  justify-content: center;
+}
+.fs-1\.5rem {
+  font-size: 1.5rem;
+}
+.mt-4rem {
+  margin-top: 4rem;
+}
+.z-2 {
+  z-index: 2;
+}
+.wrap {
+  word-wrap: break-word;
+}
+.fs-3rem {
+  font-size: 3rem;
+}
+.bg-\#181818 {
+  background-color: #181818;
+}
+.w-25\% {
+  width: 25%;
+}
+.flex {
+  display: flex;
+}
+.alignCenter {
+  align-items: center;
+}
 .m-0\% {
   margin: 0%;
+}
+.w-75\% {
+  width: 75%;
+}
+.fs-5rem {
+  font-size: 5rem;
+}
+.w-50\% {
+  width: 50%;
+}
+.justifyBetween {
+  justify-content: space-between;
+}
+.mb-8rem {
+  margin-bottom: 8rem;
+}
+.w-70\% {
+  width: 70%;
+}
+.maxw-100\% {
+  max-width: 100%;
+}
+.grid {
+  display: grid;
+}
+.ar-2\/1 {
+  aspect-ratio: 2/1;
+}
+.bg-blue {
+  background-color: blue;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+.rounded {
+  border-radius: 8px;
+}
+.gap-1rem {
+  gap: 1rem;
+}
+.pl-8rem\! {
+  padding-left: 8rem !important;
+}
+.h-75vh {
+  height: 75vh;
+}
+.w-80\% {
+  width: 80%;
+}
+.gap-2rem {
+  gap: 2rem;
+}
+.p-0\.5rem {
+  padding: 0.5rem;
+}
+.flex-1 {
+  display: flex;
+}
+.bg-green {
+  background-color: green;
+}
+.relative {
+  position: relative;
+}
+.w-100\% {
+  width: 100%;
+}
+.gridCol-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.w-85\% {
+  width: 85%;
+}
+.w-95\% {
+  width: 95%;
 }
 
 
@@ -48,6 +143,39 @@
   .computer { display: none; }
   .ultrawide { display: none; }
   :root { font-size: 14px; }
+  .m\:gap-2rem {
+    gap: 2rem;
+  }
+  .m\:fs-1rem {
+    font-size: 1rem;
+  }
+  .m\:column {
+    flex-direction: column;
+  }
+  .m\:gap-1rem {
+    gap: 1rem;
+  }
+  .m\:mt-0 {
+    margin-top: 0;
+  }
+  .m\:fs-1\.5rem {
+    font-size: 1.5rem;
+  }
+  .m\:fs-3rem {
+    font-size: 3rem;
+  }
+  .m\:fs-4rem {
+    font-size: 4rem;
+  }
+  .m\:gridCol-1 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .m\:w-75\% {
+    width: 75%;
+  }
+  .m\:fs-2rem {
+    font-size: 2rem;
+  }
 }
 
 /* Tablet */

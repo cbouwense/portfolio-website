@@ -15,29 +15,36 @@
   <link href="tailpipe.css" rel="stylesheet">
 </head>
 
-<body class="m-0% bg-#181818">
-  <nav class="w-100% sticky pl-8rem! p-0.5rem  bg-#181818 fs-1.5rem z-2 desktop">
-    <ul class="flex gap-4rem">
-      <li><a href="#about" class="hoverable-text">About</a></li>
-      <li><a href="#work" class="hoverable-text">Work</a></li>
-      <li><a href="#skills" class="hoverable-text">Skills</a></li>
-      <li><a href="#experience" class="hoverable-text">Experience</a></li>
-      <li><a href="#contact" class="hoverable-text">Contact</a></li>
+<body class="m-0% bg-#181818 m:w-100vw p-1rem">
+  <nav class="w-100% h-10vh sticky pl-8rem bg-#181818 fs-1.5rem z-2 m:hide t:hide">
+    <ul class="h-100% flex gap-4rem alignStart m-0%">
+      <li class="h-100% flex alignCenter fs-1.5rem"><a href="#about" class="hoverable-text">About</a></li>
+      <li class="h-100% flex alignCenter fs-1.5rem"><a href="#work" class="hoverable-text">Work</a></li>
+      <li class="h-100% flex alignCenter fs-1.5rem"><a href="#skills" class="hoverable-text">Skills</a></li>
+      <li class="h-100% flex alignCenter fs-1.5rem"><a href="#experience" class="hoverable-text">Experience</a></li>
+      <li class="h-100% flex alignCenter fs-1.5rem"><a href="#contact" class="hoverable-text">Contact</a></li>
     </ul>
   </nav>
-  <main class="w-100% mb-8rem z-1 flex column alignCenter justifyCenter gap-4rem">
-    <section id="about" class="w-70% m:w-75% mt-4rem m:mt-0 grid gridCol-2 m:gridCol-1 gap-2rem">
+  <main class="w-100% z-1 flex column alignCenter justifyCenter gap-4rem">
+    <section id="about" class="w-100% flex column gap-1rem">
+      <h1 class="fs-5rem m:fs-4rem m-0%">Hi, I'm Christian.</h1>
+      <!-- If we're on mobile or tablet, the headshot should be right under the "Hi". -->
+      <img src="./public/headshot.jpg" class="w-100% c:hide uw:hide" />
       <div>
-        <h1 class="fs-5rem m:fs-4rem">Hi, I'm Christian.</h1>
-        <img src="./public/headshot.jpg" class="w-100% mobile" />
-        <h2 class="light-text">I develop world class web applications.</h2>
-        <h2 class="light-text">I also tinker with systems programming languages.</h2>
-        <h2 class="light-text">My wife and I make <a href="https://soapy.bar" target="_blank"
-            class="hoverable-text underline-dots">homemade soap</a> from scratch with love.</h2>
+        <p class="light-text">I develop world class web applications.</p>
+        <p class="light-text">I also tinker with systems programming languages.</p>
+        <p class="light-text">
+          My wife and I make
+          <a href="https://soapy.bar" target="_blank" class="hoverable-text underline-dots">
+            homemade soap
+          </a>
+          from scratch with love.
+        </p>
       </div>
-      <img src="./public/headshot.jpg" class="h-75vh desktop" />
+      <!-- If we're on a computer or ultrawide monitor, the headshot should be next to the text. -->
+      <img src="./public/headshot.jpg" class="h-75vh m:hide t:hide" />
     </section>
-    <section id="work" class="w-70% m:w-75%">
+    <section id="work" class="w-100%">
       <h1 class="fs-5rem m:fs-3rem">Some stuff I've made</h1>
       <div class="grid gridCol-2 m:gridCol-1 gap-1rem">
         <div class="w-100%">
@@ -87,7 +94,7 @@
         </div>
       </div>
     </section>
-    <section id="skills" class="w-70% m:w-75%">
+    <section id="skills" class="w-100%">
       <h1 class="fs-5rem m:fs-3rem">Programming Languages</h1>
       <div class="grid gridCol-2 m:gridCol-1 gap-2rem m:gap-1rem">
         <div>
@@ -196,7 +203,7 @@
         </div>
       </div>
     </section>
-    <section id="experience" class="w-70% m:w-75%">
+    <section id="experience" class="w-100%">
       <h1 class="fs-5rem m:fs-3rem">Places I've Worked</h1>
       <div class="flex justifyCenter gap-4rem m:column m:gap-2rem w-100%">
         <div class="flex flex-1 column gap-2rem m:gap-1rem">
@@ -248,7 +255,7 @@
         </div>
       </div>
     </section>
-    <section id="contact" class="w-70% m:w-75%">
+    <section id="contact" class="w-100%">
       <h1 class="fs-5rem m:fs-3rem">Get in touch</h1>
       <div class="flex gap-4rem m:column m:gap-1rem w-100%">
         <div class="maxw-100%">

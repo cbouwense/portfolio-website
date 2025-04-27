@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0%">
-  <title>Oil Change Info</title>
+  <title>Cars</title>
 
   <!-- Font stuff -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,85 +17,210 @@
 </head>
 
 <body class="m-0% bg-#181818">
-  <main class="w-100% mb-8rem z-1 flex column gap-1rem fs-1.5rem p-2rem">
-    <nav class="w-100% fs-1.5rem z-2">      
-      <ul class="flex column m-0 gap-1rem fs-2rem">
-        <li><a href="#materials" class="hoverable-text">Materials</a></li>
-        <li><a href="#instructions" class="hoverable-text">Instructions</a></li>
-        <li><a href="#highlander" class="hoverable-text">Highlander</a></li>
-        <li><a href="#fusion" class="hoverable-text">Fusion</a></li>       
-      </ul>
+  <main class="w-100% mb-8rem z-1 flex column gap-1rem fs-20px p-2rem">
+    <nav class="w-100% fs-20px z-2">
+      <li><a href="#material" class="hoverable-text">Materials</a></li>
+      <li><a href="#instructions" class="hoverable-text">Instructions</a></li>
+      <li><a href="#highlander" class="hoverable-text">Highlander</a></li>
+      <li><a href="#fusion" class="hoverable-text">Fusion</a></li>       
     </nav>
-    <section id="materials">
+    <section class="fs-20px" id="materials">
       <h1>Materials</h1>
       <ul class="flex column gap-1rem">
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>Oil</li>
-          <li class="ml-3rem">Highlander: 5W-30, 4.1 quarts</li>
-          <li class="ml-3rem">Fusion: 5W-20, 4.5 quarts</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>Filter</li>
-          <li class="ml-3rem">Highlander: FRAM PH3614</li>
-          <li class="ml-3rem">Fusion: FRAM CH9641</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>Gasket</li>
-          <li class="ml-3rem">Highlander: M12</li>
-          <li class="ml-3rem">Fusion: M14 (optional?)</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>Ratchet set</li>
-          <li class="ml-3rem">Highlander: 9/16" head</li>
-          <li class="ml-3rem">Fusion: 5/8" head</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>Drain pan</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>Gloves</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>Cardboard / Styrofoam pad</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>Paper towels</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>Funnel</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>Ramps</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>Filter grippy</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Oil</li>
+        <li class="ml-3rem">
+          Highlander:
+          <a class="underlineDots" href="https://www.amazon.com/dp/B00I4E91GI" target="_blank">5W-30, 4.1 quarts</a>
+        </li>
+        <li class="ml-3rem">
+          Fusion:
+          <a class="underlineDots" href="https://www.amazon.com/dp/B07C5W51F2" target="_blank">5W-20, 4.5 quarts</a>
+        </li>
+
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Filter</li>
+        <li class="ml-3rem">
+          Highlander:
+          <a class="underlineDots" href="https://www.amazon.com/dp/B0009H52AM/" target="_blank">FRAM PH3614</a>
+        </li>
+        <li class="ml-3rem">
+          Fusion:
+          <a class="underlineDots" href="https://www.amazon.com/dp/B000C2ZJ3E" target="_blank">FRAM CH9641</a>
+        </li>
+
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Gasket</li>
+        <li class="ml-3rem">Highlander: M12</li>
+        <li class="ml-3rem">Fusion: M14 (optional?)</li>
+
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Ratchet set</li>
+        <li class="ml-3rem">Highlander: 9/16" head</li>
+        <li class="ml-3rem">Fusion: 5/8" head</li>
+      
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Drain pan</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Gloves</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Cardboard / Styrofoam pad</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Paper towels</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Funnel</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Ramps</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Filter grippy</li>
       </ul>
     </section>
-    <section id="instructions">
+    <section class="fs-20px" id="instructions">
       <h1>Instructions</h1>
-      <span>(1 - 2 hours)</span>
-      <ul class="fs-1rem flex column gap-1rem">
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>make sure you have all the materials (don't gather yet)</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>clear out driveway</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>set up ramps and drive onto them</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>set a timer for 10 minutes for engine to cool off</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>while waiting, gather the materials</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>put cardboard down and pan into place</li>
+      <span>(30 min - 1 hour)</span>
+      <ul class="flex column gap-1rem">
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>make sure you have all the materials (don't gather yet)</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>clear out driveway</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>set up ramps and drive onto them</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>set a timer for 10 minutes for engine to cool off</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>while waiting, gather the materials</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>put cardboard down and pan into place</li>
         <li class="ml-3rem">Highlander: oil pan is behind front passenger wheel</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>once timer is done, take ratchet and unscrew drain</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>wait for oil to drain</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>while waiting, wipe off screw and put on new gasket</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>once done draining, screw drain bolt back in</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>unscrew the oil filter</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>once timer is done, take ratchet and unscrew drain</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>wait for oil to drain</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>while waiting, wipe off screw and put on new gasket</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>once done draining, screw drain bolt back in</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>unscrew the oil filter</li>
         <li class="ml-3rem">filter is sideways on the front of the engine block on Highlander</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>wipe off dripped oil, lubricate edge of new filter and screw on</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>double check oil drain screw and filter connections</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>pour in new oil</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>wipe off dripped oil, lubricate edge of new filter and screw on</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>double check oil drain screw and filter connections</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>pour in new oil</li>
         <li class="ml-3rem">Highlander: 4.1 quarts</li>
-        <li class="ml-3rem">Highlander: 4.5 quarts</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>check new oil level</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>run car and make sure nothing blows up</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>put materials away</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>order new materials for next time</li>
-        <li class="fs-2rem"><input type="checkbox" class="w-2rem h-2rem"/>update this page</li>
+        <li class="ml-3rem">Fusion: 4.5 quarts</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>check new oil level</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>run car and make sure nothing blows up</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>put materials away</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>order new materials for next time</li>
+        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>update this page</li>
       </ul>
     </section>
     <section id="highlander">
       <h1>Highlander</h1>
-      <ul>
-        <li class="dot">2023-??-??: 125450</li>
-        <li class="dot">2023-11-09: 131020</li>
-        <li class="dot">2024-10-26: 136050</li>
-      </ul>
+      <table>
+        <caption>
+          Highlander maintenance history
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Mileage</th>
+            <th scope="col">Service</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2008-09-06</td>
+            <td class="textAlign-right">32361</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+          <tr>
+            <td>2009-05-23</td>
+            <td class="textAlign-right">3????</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+          <tr>
+            <td>2009-08-29</td>
+            <td class="textAlign-right">38965</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+          <tr>
+            <td>2010-03-13</td>
+            <td class="textAlign-right">42032</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+          <tr>
+            <td>2011-01-22</td>
+            <td class="textAlign-right">47259</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+          <tr>
+            <td>2016-02-??</td>
+            <td class="textAlign-right">77377</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+          <tr>
+            <td>2020-08-15</td>
+            <td class="textAlign-right">100559</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+          <tr>
+            <td>2021-03-21</td>
+            <td class="textAlign-right">105519</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+          <tr>
+            <td>2021-06-20</td>
+            <td class="textAlign-right">110211</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+          <tr>
+            <td>2021-11-26</td>
+            <td class="textAlign-right">116188</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+          <tr>
+            <td>2022-04-16</td>
+            <td class="textAlign-right">120250</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+          <tr>
+            <td>2023-??-??</td>
+            <td class="textAlign-right">125450</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+          <tr>
+            <td>2023-11-09</td>
+            <td class="textAlign-right">131020</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+          <tr>
+            <td>2024-10-26</td>
+            <td class="textAlign-right">136050</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
     <section id="fusion">
       <h1>Fusion</h1>
-      <ul>
-        <li class="dot">2023-??-??: 136000</li>
-        <li class="dot">2023-12-06: 147842</li>
-        <li class="dot">2024-??-??: ??????</li>
-        <li class="dot">2024-10-12: 161000</li>
-        <li class="dot">2025-04-22: 166500</li>
-      </ul>
+      <table>
+        <caption>
+          Fusion maintenance history
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Mileage</th>
+            <th scope="col">Service</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2023-??-??</td>
+            <td class="textAlign-right">136000</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+          <tr>
+            <td>2023-12-06</td>
+            <td class="textAlign-right">147842</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+          <tr>
+            <td>2024-??-??</td>
+            <td class="textAlign-right">??????</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+          <tr>
+            <td>2024-10-12</td>
+            <td class="textAlign-right">161000</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+          <tr>
+            <td>2025-04-22</td>
+            <td class="textAlign-right">166500</td>
+            <td>Oil and oil filter change</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
   </main>
 </body>

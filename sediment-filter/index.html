@@ -17,31 +17,37 @@
 </head>
 
 <body class="m-0%">
-  <main class="w-100% mb-8rem z-1 flex column gap-1rem fs-1.5rem p-2rem">
-    <nav class="w-100% bg-#181818 fs-1.5rem z-2">
-      <ul class="flex column m-0 gap-1rem fs-2rem">
-        <li><a href="#materials" class="hoverable-text">Materials</a></li>
-        <li><a href="#instructions" class="hoverable-text">Instructions</a></li>
+  <nav class="sticky z-2 h-4rem m:h-3rem bg-#181818 w-100% light-shadow flex alignCenter">
+    <ul class="maxw-800px m-auto">
+      <li><a href="/" class="fs-2rem m:fs-1rem hoverable-text">./gup.sh</a></li>
+    </ul>
+  </nav>
+  <main class="maxw-800px m-auto mb-8rem z-1 relative flex column gap-1rem pb-2rem m:p-1rem">
+    <section id="table-of-contents" class="w-100% bg-#181818">
+      <h1>Contents</h1>
+      <ul class="flex column m-0 gap-1rem">
+        <li><a href="#materials"      class="hoverable-text">Materials</a></li>
+        <li><a href="#instructions"   class="hoverable-text">Instructions</a></li>
         <li><a href="#when-to-change" class="hoverable-text">When to change</a></li>
-        <li><a href="#change-log" class="hoverable-text">Change log</a></li>
+        <li><a href="#change-log"     class="hoverable-text">Change log</a></li>
       </ul>
-    </nav>
+    </section>
     <section id="materials">
       <h1>Materials</h1>
       <ul>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
           <span>Bucket</span>
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
           <span>Old towel</span>
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
           <span>New filter</span>
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
           <span>Soap and water</span>
         </li>
@@ -57,75 +63,83 @@
     </section>
     <section id="instructions">
       <h1>Instructions</h1>
-      <span>(5 - 15 minutes)</span>
+      <span>(10 - 15 minutes)</span>
       <ol class="f2-1rem">
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
           make sure you have all the materials
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
           place bucket and towel under the filter
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
           close inlet valve
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
           run water until it slows down (you don't have to wait until it fully stops)
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
           close outlet valve
         </li>
-        <li class="fs-2rem">
+        <li>
+          <input type="checkbox" class="w-2rem h-2rem" />
+          open bypass valve (you'll need water to clean out the shell)
+        </li>
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
           press red button to relieve water pressure
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
-          take the big wrench thing that looks like a tennis racket and snug it up to the top of the shell.
+          take the big wrench thing that looks like a tennis racket and snug it up to the top of the shell
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
-          untwist the shell. (it is very heavy)
+          untwist the shell (it is very heavy)
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
-          place shell in bucket.
+          place shell in bucket
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
-          remove filter and drain excess water into bucket.
+          remove filter and drain excess water into bucket
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
-          clean out shell with soap and water.
+          clean out shell with soap and water
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
           insert new filter into shell
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
           screw back into place with tennis racket wrench
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
           open inlet valve first
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
           open outlet valve
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
           check for leaks
         </li>
-        <li class="fs-2rem">
+        <li>
           <input type="checkbox" class="w-2rem h-2rem" />
           dump old water
+        </li>
+        <li>
+          <input type="checkbox" class="w-2rem h-2rem" />
+          update this page with learnings and log entry
         </li>
       </ol>
     </section>
@@ -141,6 +155,7 @@
     <section id="change-log">
       <h1>Change log</h1>
       <ul>
+        <li class="dot">2025-06-25</li>
         <li class="dot">2025-02-25</li>
         <li class="dot">2024-11-??</li>
         <li class="dot">2024-09-??</li>

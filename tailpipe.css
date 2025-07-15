@@ -3,22 +3,19 @@
  * You can edit this file, but I would not recommend it since it will be overwritten without warning the next time you run tailpipe.
  * If you want to add your own rules, I recommend you add them to a separate stylesheets (I use a 'custom.css' file for this).
  */
-.z-1 {
-  z-index: 1;
+.mb-0\.5rem {
+  margin-bottom: 0.5rem;
 }
 .mb-8rem {
   margin-bottom: 8rem;
 }
-.column {
-  flex-direction: column;
+.h-4rem {
+  height: 4rem;
 }
 .sticky {
   position: sticky;
   top: 0;
   box-sizing: border-box;
-}
-.h-4rem {
-  height: 4rem;
 }
 .dot {
   list-style-type: disc;
@@ -27,14 +24,11 @@
 .fs-2rem {
   font-size: 2rem;
 }
-.flex {
-  display: flex;
-}
-.w-2rem {
-  width: 2rem;
-}
 .maxw-800px {
   max-width: 800px;
+}
+.p-0 {
+  padding: 0;
 }
 .pb-2rem {
   padding-bottom: 2rem;
@@ -42,20 +36,17 @@
 .z-2 {
   z-index: 2;
 }
-.gap-1rem {
-  gap: 1rem;
-}
 .bg-\#181818 {
   background-color: #181818;
 }
-.m-0 {
-  margin: 0;
+.flex {
+  display: flex;
 }
 .alignCenter {
   align-items: center;
 }
-.h-2rem {
-  height: 2rem;
+.relative {
+  position: relative;
 }
 .w-100\% {
   width: 100%;
@@ -65,9 +56,6 @@
 }
 .m-auto {
   margin: auto;
-}
-.relative {
-  position: relative;
 }
 
 

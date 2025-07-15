@@ -18,22 +18,36 @@
 </head>
 
 <body class="m-0%">
-  <nav class="sticky z-2 h-4rem m:h-3rem bg-#181818 w-100% light-shadow flex alignCenter">
+  <nav class="light-shadow">
     <ul class="maxw-800px m-auto">
       <li><a href="/" class="fs-2rem m:fs-1rem">./gup.sh</a></li>
     </ul>
   </nav>
-  <main class="maxw-800px m-auto mb-8rem z-1 relative flex column gap-1rem pb-2rem m:p-1rem">
-    <nav class="w-100% bg-#181818 z-2">
-      <ul class="flex column m-0 gap-1rem">
-        <li><a href="https://christianbouwense.com" class="hoverable-text">Portfolio</a></li>
-        <li><a href="/oil" class="hoverable-text">Oil changes</a></li>
-        <li><a href="/sediment-filter" class="hoverable-text">Sediment filter</a></li>
-        <li><a href="/restaurants" class="hoverable-text">Restaurants</a></li>
-        <li><a href="/blog" class="hoverable-text">Blog</a></li>
-      </ul>
-    </nav>
+  <main class="maxw-800px m-auto z-1 flex column gap-1rem">
+    <input type="search" oninput="updateSearchValue(this.value)" />
+    <ul class="flex column gap-0.5rem" id="pages">
+      <li><a href="https://christianbouwense.com" class="hoverable-text">Portfolio</a></li>
+      <li><a href="/oil"                          class="hoverable-text">Oil changes</a></li>
+      <li><a href="/sediment-filter"              class="hoverable-text">Sediment filter</a></li>
+      <li><a href="/restaurants"                  class="hoverable-text">Restaurants</a></li>
+      <li><a href="/blog"                         class="hoverable-text">Blog</a></li>
+    </ul>
   </main>
+
+  <script>
+    const updateSearchValue = (newSearch) => {
+      const ul = document.getElementById("pages");
+      const listItems = ul.querySelectorAll("li");
+      const pagesWithinSearch =
+        [...listItems]
+          .map((li) => li.innerText)
+          .filter((pageName) => pageName.toLowerCase().includes(newSearch.toLowerCase()));
+      
+      listItems.forEach((li) => {
+        li.style.display = pagesWithinSearch.includes(li.innerText) ? 'block' : 'none';
+      });
+    } 
+  </script>
 </body>
 
 </html>

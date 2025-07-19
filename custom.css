@@ -3,7 +3,6 @@
 }
 
 :root {
-    /* font-size: 16px; */
     --text-primary-color: whitesmoke;
     --text-secondary-color: gray;
     color: var(--text-primary-color);
@@ -140,16 +139,11 @@ tbody > tr:nth-of-type(even) {
 }
 
 input[type=checkbox] {
-    width: 24px;
-    height: 24px;
+    width: 1rem;
+    height: 1rem;
 }
 
-/* TODO: Give tailpipe hide functionality and remove these. */
 @media (max-width: 768px) {
-    .m\:hide {
-        display: none;
-    }
-    
     :root {
         font-size: 16px;
     }
@@ -161,10 +155,6 @@ input[type=checkbox] {
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .t\:hide {
-        display: none;
-    }
-
     :root {
         font-size: 16px;
     }
@@ -172,10 +162,6 @@ input[type=checkbox] {
 
 /* Computer */
 @media (min-width: 1024px) and (max-width: 3840px) {
-    .c\:hide {
-        display: none;
-    }
-
     :root {
         font-size: 22px;
     }
@@ -183,10 +169,6 @@ input[type=checkbox] {
 
 /* Ultrawide monitor */
 @media (min-width: 3840px) {
-    .uw\:hide {
-        display: none;
-    }
-
     :root {
         font-size: 24px;
     }

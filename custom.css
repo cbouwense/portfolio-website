@@ -151,7 +151,7 @@ input[type=checkbox] {
     }
     
     :root {
-        font-size: 12px;
+        font-size: 16px;
     }
     
     nav {
@@ -159,20 +159,35 @@ input[type=checkbox] {
     }
 }
 
+/* Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
     .t\:hide {
         display: none;
     }
+
+    :root {
+        font-size: 16px;
+    }
 }
 
+/* Computer */
 @media (min-width: 1024px) and (max-width: 3840px) {
     .c\:hide {
         display: none;
     }
+
+    :root {
+        font-size: 22px;
+    }
 }
 
+/* Ultrawide monitor */
 @media (min-width: 3840px) {
     .uw\:hide {
         display: none;
+    }
+
+    :root {
+        font-size: 24px;
     }
 }

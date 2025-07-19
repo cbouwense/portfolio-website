@@ -4,30 +4,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0%">
-  <title>Cars</title>
+  <title>Sediment Filter Info</title>
 
   <!-- Font stuff -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,200;0,400;0,700;1,400&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
 
   <link href="../tailpipe.css" rel="stylesheet">
   <link href="../custom.css" rel="stylesheet">
 </head>
 
-<body class="m-0% bg-#181818">
-  <main class="w-100% mb-8rem z-1 flex column gap-1rem fs-20px p-2rem">
-    <nav class="w-100% fs-20px z-2">
-      <li><a href="#material" class="hoverable-text">Materials</a></li>
-      <li><a href="#instructions" class="hoverable-text">Instructions</a></li>
-      <li><a href="#highlander" class="hoverable-text">Highlander</a></li>
-      <li><a href="#fusion" class="hoverable-text">Fusion</a></li>       
-    </nav>
-    <section class="fs-20px" id="materials">
+<body class="m-0%">
+  <nav class="light-shadow">
+    <ul class="maxw-800px m-auto">
+      <li><a href="/" class="fs-2rem m:fs-1rem hoverable-text">./gup.sh</a></li>
+    </ul>
+  </nav>
+  <main class="maxw-800px m-auto mb-8rem relative pb-2rem m:p-1rem">
+    <section id="table-of-contents" class="w-100% bg-#181818">
+      <h1>Contents</h1>
+      <ul class="flex column gap-0.5rem">
+        <li><a href="#materials"    class="hoverable-text">Materials</a></li>
+        <li><a href="#instructions" class="hoverable-text">Instructions</a></li>
+        <li><a href="#highlander"   class="hoverable-text">Highlander</a></li>
+        <li><a href="#fusion"       class="hoverable-text">Fusion</a></li>
+      </ul>    
+    </section>
+    <sectionid="materials">
       <h1>Materials</h1>
-      <ul class="flex column gap-1rem">
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Oil</li>
+      <ul>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>Oil</span>
+        </li>
         <li class="ml-3rem">
           Highlander:
           <a class="underlineDots" href="https://www.amazon.com/dp/B00I4E91GI" target="_blank">5W-30, 4.1 quarts</a>
@@ -37,7 +47,10 @@
           <a class="underlineDots" href="https://www.amazon.com/dp/B07C5W51F2" target="_blank">5W-20, 4.5 quarts</a>
         </li>
 
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Filter</li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>Filter</span>
+        </li>
         <li class="ml-3rem">
           <a class="underlineDots" href="https://a.co/d/dJ6EwuO" target="_blank">Highlander</a>
         </li>
@@ -45,50 +58,130 @@
           <a class="underlineDots" href="https://a.co/d/i1pdPsR" target="_blank">Fusion</a>
         </li>
 
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Gasket</li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>Gasket</span>
+        </li>
         <li class="ml-3rem">Highlander: M12</li>
         <li class="ml-3rem">Fusion: M14 (optional?)</li>
 
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Ratchet set</li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>Ratchet set</span>
+        </li>
         <li class="ml-3rem">Highlander: 9/16" head</li>
         <li class="ml-3rem">Fusion: 5/8" head</li>
       
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Drain pan</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Gloves</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Cardboard / Styrofoam pad</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Paper towels</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Funnel</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Ramps</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>Filter grippy</li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>Drain pan</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>Gloves</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>Cardboard / Styrofoam pad</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>Paper towels</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>Funnel</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>Ramps</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>Filter grippy</span>
+        </li>
       </ul>
     </section>
-    <section class="fs-20px" id="instructions">
+    <sectionid="instructions">
       <h1>Instructions</h1>
       <span>(30 min - 1 hour)</span>
-      <ul class="flex column gap-1rem">
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>make sure you have all the materials (don't gather yet)</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>clear out driveway</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>set up ramps and drive onto them</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>set a timer for 10 minutes for engine to cool off</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>while waiting, gather the materials</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>put cardboard down and pan into place</li>
-        <li class="ml-3rem">Highlander: oil pan is behind front passenger wheel</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>once timer is done, take ratchet and unscrew drain</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>wait for oil to drain</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>while waiting, wipe off screw and put on new gasket</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>once done draining, screw drain bolt back in</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>unscrew the oil filter</li>
-        <li class="ml-3rem">filter is sideways on the front of the engine block on Highlander</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>wipe off dripped oil, lubricate edge of new filter and screw on</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>double check oil drain screw and filter connections</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>pour in new oil</li>
-        <li class="ml-3rem">Highlander: 4.1 quarts</li>
-        <li class="ml-3rem">Fusion: 4.5 quarts</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>check new oil level</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>run car and make sure nothing blows up</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>put materials away</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>order new materials for next time</li>
-        <li><input type="checkbox" class="w-1.5rem h-1.5rem"/>update this page</li>
+      <ul>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>make sure you have all the materials (don't gather yet)</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>clear out driveway</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>set up ramps and drive onto them</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>set a timer for 10 minutes for engine to cool off</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>while waiting, gather the materials</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>put cardboard down and pan into place (Highlander: oil pan is behind front passenger wheel)</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>once timer is done, take ratchet and unscrew drain</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>wait for oil to drain</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>while waiting, wipe off screw and put on new gasket</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>once done draining, screw drain bolt back in</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>unscrew the oil filter (filter is sideways on the front of the engine block on Highlander)</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>wipe off dripped oil, lubricate edge of new filter and screw on</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>double check oil drain screw and filter connections</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>pour in new oil (Highlander: 4.1 quarts, Fusion: 4.5 quarts)</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>check new oil level</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>run car and make sure nothing blows up</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>put materials away</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>order new materials for next time</span>
+        </li>
+        <li class="checkbox-list-item">
+          <input type="checkbox" />
+          <span>update this page</span>
+        </li>
       </ul>
     </section>
     <section id="highlander">

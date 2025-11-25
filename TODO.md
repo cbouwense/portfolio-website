@@ -1,0 +1,2 @@
+- how to grill steak
+- how to update gup.sh

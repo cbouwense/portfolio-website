@@ -3,6 +3,19 @@
  * You can edit this file, but I would not recommend it since it will be overwritten without warning the next time you run tailpipe.
  * If you want to add your own rules, I recommend you add them to a separate stylesheets (I use a 'custom.css' file for this).
  */
+.dot {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+.gap-0\.5rem {
+  gap: 0.5rem;
+}
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
 
 
 /* Mobile */

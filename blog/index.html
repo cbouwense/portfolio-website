@@ -7,47 +7,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0%">
   <title>Personal blog</title>
 
-  <!-- Font stuff -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
-
   <!-- Stylesheets -->
   <link href="../tailpipe.css" rel="stylesheet">
   <link href="../custom.css" rel="stylesheet">
 </head>
 
-<body class="m-0%">
+<body>
   <nav>
-    <ul class="maxw-800px m-auto">
+    <ul>
       <li>
-        <a href="/" class="hoverable-text">./gup.sh</a>
+        <a href="/">./gup.sh</a>
         /
-        <a href="/blog" class="hoverable-text">Blog</a>
+        <a href="/blog">Blog</a>
       </li>
     </ul>
   </nav>
-  <main class="maxw-800px m-auto z-1 flex column gap-1rem">
-    <input type="search" class="w-100% h-2rem" oninput="updateSearchValue(this.value)" />
-    <ul class="flex column gap-0.5rem" id="pages">
-      <li><a href="./tell-me-the-downsides/" class="hoverable-text">Tell me the Downsides</a></li>
+
+  <main>
+    <input type="search" oninput="updateSearchValue(this.value)" />
+    <ul class="searchable-list">
+      <li><a href="./tell-me-the-downsides/">Tell me the Downsides</a></li>
     </ul>
   </main>
 
-  <script>
-    const updateSearchValue = (newSearch) => {
-      const ul = document.getElementById("pages");
-      const listItems = ul.querySelectorAll("li");
-      const pagesWithinSearch =
-        [...listItems]
-          .map((li) => li.innerText)
-          .filter((pageName) => pageName.toLowerCase().includes(newSearch.toLowerCase()));
-      
-      listItems.forEach((li) => {
-        li.style.display = pagesWithinSearch.includes(li.innerText) ? 'block' : 'none';
-      });
-    } 
-  </script>
+  <script defer src="../scripts/updateSearchValue.js"></script>
 </body>
 
 </html>

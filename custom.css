@@ -19,7 +19,8 @@ html {
 a {
     color: var(--text-primary-color);
     transition: color 0.15s ease;
-    text-decoration: none;
+    text-decoration: underline dotted;
+    /* text-decoration: none; */
 }
 
 a:hover {
@@ -80,9 +81,6 @@ h6 {
 main {
     max-width: 800px;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
 }
 
 nav {
@@ -172,9 +170,9 @@ input[type=search] {
     gap: 1rem;
 }
 
-/* .searchable-list > li{
-    
-} */
+.searchable-list a {
+    text-decoration: none;
+}
 
 /* Mobile */
 @media (max-width: 768px) {

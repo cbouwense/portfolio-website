@@ -1,0 +1,24 @@
+{{head}}
+
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href="/">./gup.sh</a>
+        /
+        <a href="/blog">Blog</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <input type="search" oninput="updateSearchValue(this.value)" />
+    <ul class="searchable-list">
+      <li><a href="./tell-me-the-downsides/">Tell me the Downsides</a></li>
+    </ul>
+  </main>
+
+  <script defer src="../scripts/updateSearchValue.js"></script>
+</body>
+
+</html>

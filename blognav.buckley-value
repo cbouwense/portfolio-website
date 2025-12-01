@@ -1,0 +1,9 @@
+  <nav>
+    <ul>
+      <li>
+        <a href="/">./gup.sh</a>
+        /
+        <a href="/blog">Blog</a>
+      </li>
+    </ul>
+  </nav>

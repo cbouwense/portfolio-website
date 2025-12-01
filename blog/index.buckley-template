@@ -1,15 +1,7 @@
 {{head}}
 
 <body>
-  <nav>
-    <ul>
-      <li>
-        <a href="/">./gup.sh</a>
-        /
-        <a href="/blog">Blog</a>
-      </li>
-    </ul>
-  </nav>
+  {{blognav}}
 
   <main>
     <input type="search" oninput="updateSearchValue(this.value)" />

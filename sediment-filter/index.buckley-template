@@ -1,11 +1,7 @@
 {{head}}
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="/">./gup.sh</a></li>
-    </ul>
-  </nav>
+  {{basenav}}
   <main>
     <section id="table-of-contents">
       <h1>Contents</h1>

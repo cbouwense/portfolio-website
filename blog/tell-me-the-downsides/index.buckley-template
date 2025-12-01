@@ -1,15 +1,7 @@
 {{head}}
 
 <body>
-  <nav>
-    <ul>
-      <li>
-        <a href="/">./gup.sh</a>
-        /
-        <a href="/blog">Blog</a>
-      </li>
-    </ul>
-  </nav>
+  {{blognav}}
   <main>
     <h1>Tell me the Downsides</h1>
     <p>If you cannot tell me the downsides, you are uninformed. If you will not tell me the downsides, you have an agenda. If you rationalize the downsides, you are biased.</p>

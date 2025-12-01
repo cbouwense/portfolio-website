@@ -1,6 +1,7 @@
 {{head}}
 
 <body>
+  {{basenav}}
   <main>
     <ul class="mt-2rem flex column gap-1rem">
         <li class="dot">Travelling to Napa Valley, California for work.</li>

@@ -1,4 +1,10 @@
-{{head}}
+{{html-and-doctype}}
+
+<head>
+  {{head}}
+
+  <title>Tell me the Downsides</title>
+</head>
 
 <body>
   {{basenav}}

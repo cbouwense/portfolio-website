@@ -1,4 +1,10 @@
-{{head}}
+{{html-and-doctype}}
+
+<head>
+  {{head}}
+
+  <title>Gup Hub</title>
+</head>
 
 <body>
   <nav>

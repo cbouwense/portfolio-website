@@ -1,4 +1,10 @@
-{{head}}
+{{html-and-doctype}}
+
+<head>
+  {{head}}
+
+  <title>Cali Trip</title>
+</head>
 
 <body>
   {{basenav}}

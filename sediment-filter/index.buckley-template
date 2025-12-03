@@ -1,4 +1,10 @@
-{{head}}
+{{html-and-doctype}}
+
+<head>
+  {{head}}
+
+  <title>Sediment filter</title>
+</head>
 
 <body>
   {{basenav}}

@@ -1,4 +1,10 @@
-{{head}}
+{{html-and-doctype}}
+
+<head>
+  {{head}}
+
+  <title>Japan trip 2025</title>
+</head>
 
 <body>
   <main>

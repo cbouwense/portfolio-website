@@ -1,4 +1,10 @@
-{{head}}
+{{html-and-doctype}}
+
+<head>
+  {{head}}
+
+  <title>Local restaurants</title>
+</head>
 
 <body>
   {{basenav}}

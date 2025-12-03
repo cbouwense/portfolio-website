@@ -1,0 +1,25 @@
+{{html-and-doctype}}
+
+<head>
+    {{head}}
+    <title>Steak guide</title>
+</head>
+
+<body>
+    {{basenav}}
+    <main>
+        <h1>How to cook steak on a charcoal grill</h1>
+        <h5>December 2, 2025</h5>
+        <ol>
+            <li>Take the grill out and remove any previous ashes.</li>
+            <li>Scrape and wipe down the grates.</li>
+            <li>
+                Put the bottom grate back in and get the briquettes started in the chimney filled up.
+                <ul><li class="dot">This will probably take 15-30 minutes to fully start all of them.</li></ul>
+            </li>
+            <li></li>
+        </ol>
+    </main>
+</body>
+
+</html>

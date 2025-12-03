@@ -7,11 +7,7 @@
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="/">./gup.sh</a></li>
-    </ul>
-  </nav>
+  {{basenav}}
   
   <main>
     <input type="search" oninput="updateSearchValue(this.value)" />

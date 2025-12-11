@@ -220,6 +220,11 @@
     box-shadow: 1px 1px 1rem var(--secondary-background-color);
   }
 
+  .blue-glow {
+    border: 2px solid blue;
+    box-shadow: 1px 1px 1rem blue;
+  }
+
   .searchable-list {
       display: flex;
       flex-direction: column;

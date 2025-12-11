@@ -3,74 +3,11 @@
  * You can edit this file, but I would not recommend it since it will be overwritten without warning the next time you run tailpipe.
  * If you want to add your own rules, I recommend you add them to a separate stylesheets (I use a 'custom.css' file for this).
  */
-.column {
-  flex-direction: column;
-}
-.p-1rem {
-  padding: 1rem;
-}
-.bg-orange {
-  background-color: orange;
-}
-.fs-2rem {
-  font-size: 2rem;
-}
-.gap-4rem {
-  gap: 4rem;
-}
-.justifyCenter {
-  justify-content: center;
-}
-.fs-1\.5rem {
-  font-size: 1.5rem;
-}
-.wrap {
-  word-wrap: break-word;
-}
-.fs-3rem {
-  font-size: 3rem;
-}
-.w-25\% {
-  width: 25%;
-}
-.flex {
-  display: flex;
-}
-.alignCenter {
-  align-items: center;
-}
-.w-50\% {
-  width: 50%;
-}
-.w-75\% {
-  width: 75%;
-}
-.fs-5rem {
-  font-size: 5rem;
-}
-.justifyBetween {
-  justify-content: space-between;
-}
-.w-70\% {
-  width: 70%;
-}
-.maxw-100\% {
-  max-width: 100%;
-}
 .grid {
   display: grid;
 }
-.bg-blue {
-  background-color: blue;
-}
-.w-80\% {
-  width: 80%;
-}
-.bg-yellow {
-  background-color: yellow;
-}
-.rounded {
-  border-radius: 8px;
+.mt-0 {
+  margin-top: 0;
 }
 .gap-1rem {
   gap: 1rem;
@@ -78,17 +15,11 @@
 .gap-2rem {
   gap: 2rem;
 }
-.flexWrap {
-  flex-wrap: wrap;
-}
-.flex-1 {
+.flex {
   display: flex;
 }
 .relative {
   position: relative;
-}
-.bg-green {
-  background-color: green;
 }
 .w-100\% {
   width: 100%;
@@ -96,40 +27,16 @@
 .gridCol-2 {
   grid-template-columns: repeat(2, 1fr);
 }
-.w-85\% {
-  width: 85%;
-}
-.w-95\% {
-  width: 95%;
-}
 
 
 /* Mobile */
 @media (max-width: 767px) {
   :root { font-size: 14px; }
-  .m\:gap-2rem {
-    gap: 2rem;
-  }
-  .m\:fs-1rem {
-    font-size: 1rem;
-  }
-  .m\:column {
-    flex-direction: column;
-  }
   .m\:gap-1rem {
     gap: 1rem;
   }
-  .m\:fs-1\.5rem {
-    font-size: 1.5rem;
-  }
-  .m\:fs-3rem {
-    font-size: 3rem;
-  }
   .m\:gridCol-1 {
     grid-template-columns: minmax(0, 1fr);
-  }
-  .m\:fs-2rem {
-    font-size: 2rem;
   }
 }
 

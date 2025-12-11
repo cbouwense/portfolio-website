@@ -92,7 +92,7 @@
   }
   
   main {
-      max-width: 800px;
+      max-width: 1200px;
       margin: auto;
   }
   
@@ -158,7 +158,37 @@
       list-style-type: none;
       margin-left: 1.5rem;
   }
+
+  @keyframes pulse {
+    0% {
+      color: red;
+    }
+    50% {
+      color: blue;
+    }
+    100% {
+      color: red;
+    }
+  }
   
+  .pulsate {
+    animation: pulse 2s infinite;
+  }
+
+  .click-and-drag {
+    font-family: monospace;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: rotate(-15deg);
+    color: red;
+  }
+  
+  iframe {
+    border: 0;
+    aspect-ratio: 2/1;
+  }
+
   input {
       font-family: "Libre_Baskerville", serif;
       font-optical-sizing: auto;

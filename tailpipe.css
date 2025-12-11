@@ -3,35 +3,20 @@
  * You can edit this file, but I would not recommend it since it will be overwritten without warning the next time you run tailpipe.
  * If you want to add your own rules, I recommend you add them to a separate stylesheets (I use a 'custom.css' file for this).
  */
-.z-1 {
-  z-index: 1;
+.column {
+  flex-direction: column;
 }
 .p-1rem {
   padding: 1rem;
 }
-.column {
-  flex-direction: column;
-}
-.h-100\% {
-  height: 100%;
-}
-.sticky {
-  position: sticky;
-  top: 0;
-  box-sizing: border-box;
-}
-.w-100vw {
-  width: 100vw;
-}
-.px-10\% {
-  padding-left: 10%;
-  padding-right: 10%;
+.bg-orange {
+  background-color: orange;
 }
 .fs-2rem {
   font-size: 2rem;
 }
-.bg-orange {
-  background-color: orange;
+.gap-4rem {
+  gap: 4rem;
 }
 .justifyCenter {
   justify-content: center;
@@ -39,35 +24,23 @@
 .fs-1\.5rem {
   font-size: 1.5rem;
 }
-.gap-4rem {
-  gap: 4rem;
-}
-.z-2 {
-  z-index: 2;
-}
 .wrap {
   word-wrap: break-word;
 }
 .fs-3rem {
   font-size: 3rem;
 }
-.flex {
-  display: flex;
-}
-.bg-\#181818 {
-  background-color: #181818;
-}
 .w-25\% {
   width: 25%;
+}
+.flex {
+  display: flex;
 }
 .alignCenter {
   align-items: center;
 }
-.m-0 {
-  margin: 0;
-}
-.m-0\% {
-  margin: 0%;
+.w-50\% {
+  width: 50%;
 }
 .w-75\% {
   width: 75%;
@@ -75,17 +48,11 @@
 .fs-5rem {
   font-size: 5rem;
 }
-.w-50\% {
-  width: 50%;
-}
 .justifyBetween {
   justify-content: space-between;
 }
 .w-70\% {
   width: 70%;
-}
-.alignStart {
-  align-items: flex-start;
 }
 .maxw-100\% {
   max-width: 100%;
@@ -108,23 +75,20 @@
 .gap-1rem {
   gap: 1rem;
 }
-.h-75vh {
-  height: 75vh;
-}
 .gap-2rem {
   gap: 2rem;
 }
-.h-5vh {
-  height: 5vh;
+.flexWrap {
+  flex-wrap: wrap;
 }
 .flex-1 {
   display: flex;
 }
-.bg-green {
-  background-color: green;
-}
 .relative {
   position: relative;
+}
+.bg-green {
+  background-color: green;
 }
 .w-100\% {
   width: 100%;
@@ -141,15 +105,8 @@
 
 
 /* Mobile */
-@media (max-width: 768px) {
-  .mobile { display: inherit; }
-  .tablet { display: none; }
-  .computer { display: none; }
-  .ultrawide { display: none; }
+@media (max-width: 767px) {
   :root { font-size: 14px; }
-  .m\:h-auto {
-    height: auto;
-  }
   .m\:gap-2rem {
     gap: 2rem;
   }
@@ -165,9 +122,6 @@
   .m\:fs-1\.5rem {
     font-size: 1.5rem;
   }
-  .m\:w-100\% {
-    width: 100%;
-  }
   .m\:fs-3rem {
     font-size: 3rem;
   }
@@ -180,29 +134,17 @@
 }
 
 /* Tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .mobile { display: none; }
-  .tablet { display: inherit; }
-  .computer { display: none; }
-  .ultrawide { display: none; }
+@media (min-width: 768px) and (max-width: 1365px) {
   :root { font-size: 14px; }
 }
 
 /* Computer (desktop / laptop) */
-@media (min-width: 1024px) and (max-width: 3840px) {
-  .mobile { display: none; }
-  .tablet { display: none; }
-  .computer { display: inherit; }
-  .ultrawide { display: none; }
+@media (min-width: 1366px) and (max-width: 3839px) {
   :root { font-size: 18px; }
 }
 
 /* Ultrawide */
 @media (min-width: 3840px) {
-  .mobile { display: none; }
-  .tablet { display: none; }
-  .computer { display: none; }
-  .ultrawide { display: inherit; }
   :root { font-size: 18px; }
 }
 
